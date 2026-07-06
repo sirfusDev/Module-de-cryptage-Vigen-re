@@ -1,0 +1,36 @@
+# Vigenère Cipher Module
+
+A simple and educational Python module that implements the **Vigenère Cipher**, a classical encryption technique based on a polyalphabetic substitution method. This project allows users to encrypt and decrypt text messages using a customizable key.
+
+
+The Vigenère Cipher is a cryptographic algorithm invented in the 16th century. Unlike the Caesar Cipher, which uses a single shift for every character, the Vigenère Cipher uses a keyword to generate multiple shifts, making frequency analysis more difficult.
+
+This project was created to demonstrate the fundamental concepts of classical cryptography and secure message transformation using Python.
+
+
+
+ Features
+
+- Encrypt plaintext messages
+- Decrypt encrypted messages
+- Custom encryption keys
+- Easy-to-use Python functions
+- Lightweight and fast implementation
+- Educational and beginner-friendly code
+- Input validation and error handling
+- Supports uppercase and lowercase text
+
+
+
+Project Structure
+
+```text
+vigenere-module/
+│
+├── vigenere.py          # Main module
+├── tests.py             # Unit tests
+├── examples.py          # Usage examples
+├── README.md            # Documentation
+└── LICENSE              # License file
+
+git clone https://github.com/your-username/vigenere-module.git
